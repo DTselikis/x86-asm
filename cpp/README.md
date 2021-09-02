@@ -1,0 +1,2 @@
+### Access_private_data_opcode
+We know in OOP the private data and methods of a class can only be accesed from inside the class. By taking advantage of a public method and considaring how a class is represented in assembly level and also how assembly works, we are able to execute a private method from outside the class. We are using the address of the public method and try to find the jump instruction to the private method and extract the methods' address.
